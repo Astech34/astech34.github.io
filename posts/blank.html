@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blank Blog — Anderson Steckler</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="../index.html" class="nav-name">Anderson Steckler</a>
+    <ul class="nav-links">
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../publications.html">Publications</a></li>
+      <li><a href="../blog.html">Writing</a></li>
+    </ul>
+  </nav>
+
+  <div class="post-header">
+    <div class="post-meta">
+      <span>March 14, 2025</span>
+      <span>~10 min read</span>
+    </div>
+    <h1>This is an AI generated placeholder</h1>
+    <p class="post-subtitle">
+      Why "topology" in physics doesn't mean what you might think —
+      and why that's exactly what makes it so powerful.
+    </p>
+  </div>
+
+  <div class="post-body">
+
+    <p>
+      When physicists talk about "topological" phases of matter, they are using the word
+      topology in a very specific sense — one that has almost nothing to do with the mental
+      image of coffee mugs and donuts that the word usually conjures. Understanding what they
+      actually mean turns out to illuminate something deep about how we classify the states
+      that matter can be found in.
+    </p>
+
+    <h2>What topology means to a mathematician</h2>
+
+    <p>
+      In mathematics, topology is the study of properties that are preserved under
+      continuous deformations. Two shapes are "topologically equivalent" if you can
+      transform one into the other without tearing or gluing. A sphere and a cube are
+      equivalent in this sense. A torus (donut) and a coffee mug are equivalent too —
+      both have exactly one hole.
+    </p>
+
+    <p>
+      The key idea is that topology is about what <em>doesn't change</em> under smooth
+      deformation. Topological invariants are quantities that stay the same as long as
+      you don't do anything drastic.
+    </p>
+
+    <h2>What topology means in condensed matter physics</h2>
+
+    <p>
+      In physics, the "continuous deformations" are changes to the Hamiltonian — the
+      mathematical object that encodes all the energetics of a system. Two phases of matter
+      are topologically equivalent if you can smoothly tune the parameters of one Hamiltonian
+      into the other without closing the energy gap (the energetic cost of making the lowest
+      possible excitation).
+    </p>
+
+    <blockquote>
+      A topological phase is one that cannot be smoothly connected to a trivial, featureless
+      state without something dramatic happening — specifically, without the gap closing and
+      a phase transition occurring.
+    </blockquote>
+
+    <p>
+      This is the sense in which the topology of the quantum state is robust: small
+      perturbations, impurities, or disorder cannot destroy a topological phase, because
+      doing so would require closing the gap.
+    </p>
+
+    <h2>Why does this matter experimentally?</h2>
+
+    <p>
+      Topological robustness has a remarkable practical consequence. In a topological
+      insulator, for example, the bulk of the material is insulating, but the edges or
+      surfaces host conducting states that are protected by topology. You cannot get rid
+      of these edge states by adding impurities or roughening the surface. They are, in
+      a precise sense, unavoidable.
+    </p>
+
+    <p>
+      This is why the field has attracted so much interest from quantum computing: topological
+      phases can store and manipulate quantum information in ways that are inherently protected
+      from local noise — the primary obstacle to building a useful quantum computer.
+    </p>
+
+    <h2>A simple example: the Chern insulator</h2>
+
+    <p>
+      Consider a two-dimensional band insulator — a material where electrons fill a
+      completely filled lower band, separated by a gap from an empty upper band. The
+      topological invariant here is called the Chern number, an integer that measures
+      how "twisted" the quantum states are as you move through momentum space.
+    </p>
+
+    <p>
+      A trivial insulator has Chern number zero. A topological Chern insulator has a
+      non-zero integer. You cannot change this integer without closing the gap somewhere.
+      And wherever there is an interface between a region with Chern number 1 and a
+      region with Chern number 0 (e.g., the edge of a sample or vacuum), there must be
+      a gapless, conducting edge mode.
+    </p>
+
+    <h2>Where does my own research fit in?</h2>
+
+    <p>
+      Much of my work concerns <em>topological order</em>, a more exotic and richer form
+      of topological phase that goes beyond simple band theory. In a topologically ordered
+      phase, the ground state is degenerate in a way that depends on the topology of the
+      space the system lives on — and the excitations carry fractional quantum numbers and
+      exhibit non-trivial statistics under braiding.
+    </p>
+
+    <p>
+      These phases are the setting for the most ambitious proposals for topological quantum
+      computation. Understanding how they arise, how they can be detected, and how they
+      respond to measurement and decoherence is the central theme of my group's current work.
+    </p>
+
+    <p>
+      I'll write more about specific models — the toric code, fracton phases, and
+      measurement-induced transitions — in future posts.
+    </p>
+
+  </div>
+
+  <div class="post-footer">
+    <a href="../blog.html">← All posts</a>
+    <a href="quantum-error-correction.html">Next: Quantum error correction →</a>
+  </div>
+
+  <footer class="footer">
+    <span>Built with plain HTML &amp; CSS</span>
+  </footer>
+
+  <script src="../main.js"></script>
+</body>
+</html>
