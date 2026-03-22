@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jane Smith — Physicist</title>
+  <title>About — Anderson Steckler</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,90 +12,55 @@
 <body>
 
   <nav class="nav">
-    <a href="index.html" class="nav-name">Jane Smith</a>
+    <a href="index.html" class="nav-name">Anderson Steckler</a>
     <ul class="nav-links">
-      <li><a href="about.html">About</a></li>
+      <li><a href="index.html">About</a></li>
       <li><a href="publications.html">Publications</a></li>
       <li><a href="blog.html">Writing</a></li>
     </ul>
   </nav>
 
-  <header class="hero">
-    <div class="hero-inner">
-      <div class="photo-wrap">
-        <div class="photo-placeholder">JS</div>
-      </div>
-      <div class="hero-text">
-        <p class="hero-label">Physicist · Theorist</p>
-        <h1>Jane Smith</h1>
-        <p class="hero-affil">Assistant Professor, Department of Physics<br>University of New Hampshire</p>
-        <p class="hero-bio">
-          I work at the intersection of condensed matter theory and quantum information,
-          asking how emergent phenomena arise from simple microscopic rules. My group
-          studies topological phases, entanglement structure, and the slow approach
-          to equilibrium in driven quantum systems.
-        </p>
-        <div class="hero-links">
-          <a href="cv.pdf" class="btn">CV (PDF)</a>
-          <a href="https://scholar.google.com" class="btn btn-ghost" target="_blank">Google Scholar</a>
-          <a href="https://github.com" class="btn btn-ghost" target="_blank">GitHub</a>
+  <div class="page-header">
+    <h1>Anderson Steckler</h1>
+  </div>
+
+  <div class="about-page-inner">
+    <aside class="about-sidebar">
+      <img src="photo.jpeg" alt="Anderson Steckler" class="about-photo-large" style="object-fit:cover">      <div class="about-meta">
+        <div class="about-meta-row">
+          <span class="about-meta-key">Department</span>
+          <span class="about-meta-val">Physics, University of New Hampshire</span>
+        </div>
+        <div class="about-meta-row">
+          <span class="about-meta-key">Email</span>
+          <span class="about-meta-val"><a href="mailto:anderson.steckler@unh.edu">anderson.steckler@unh.edu</a></span>
+        </div>
+        <div class="about-meta-row">
+          <span class="about-meta-key">Links</span>
+          <span class="about-meta-val">
+            <a href="https://github.com/Astech34" target="_blank">GitHub</a>
+          </span>
         </div>
       </div>
-    </div>
-    <div class="hero-rule"></div>
-  </header>
+    </aside>
 
-  <div class="home-nav-strip">
-    <a href="about.html">About &amp; Bio →</a>
-    <a href="publications.html">Publications →</a>
-    <a href="blog.html">Writing →</a>
-    <a href="contact.html">Contact →</a>
-  </div>
-
-  <!-- Recent publications preview -->
-  <div class="home-section">
-    <div class="home-section-head">
-      <h2>Recent Publications</h2>
-      <a href="publications.html">All publications →</a>
+    <div class="about-body">
+      <h2>About</h2>
+      <p>
+        Currently, I am a researcher in Dr. Jiadong Zang’s group, where I focus on correlated magnetism. 
+        My work involves investigating the magnetic properties of transition metal oxides and 
+        analyzing how geometric structure correlates with magnetic crystalline anisotropy to 
+        facilitate the design of novel hard and soft magnetic materials. Previously, 
+        I collaborated with Dr. Shawna Hollen to model quasiparticle scattering in 2D materials 
+        and worked with Dr. Ningyu Liu to develop a calibration model for the RIFTS 
+        lightning interferometer
+      </p>
+      <p>
+        I have a lot of interests outside of physics which I try to write
+        about here when I have the time. I'm very interested in teaching
+        and communicating topics to students and the general public.
+      </p>
     </div>
-    <div class="pub-year-group">
-      <span class="pub-year">2025</span>
-      <article class="pub">
-        <p class="pub-title">Measurement-induced phase transitions in random quantum circuits with symmetry</p>
-        <p class="pub-authors">J. Smith, A. Lavasani, M. Barkeshli</p>
-        <p class="pub-venue">Physical Review Letters <span class="pub-vol">134</span>, 010401</p>
-        <div class="pub-links"><a href="#">arXiv</a><a href="#">Journal</a></div>
-      </article>
-    </div>
-    <div class="pub-year-group">
-      <span class="pub-year">2024</span>
-      <article class="pub">
-        <p class="pub-title">Fracton order and subsystem symmetry in driven systems</p>
-        <p class="pub-authors">J. Smith, T. Rakovszky, V. Khemani</p>
-        <p class="pub-venue">Physical Review X <span class="pub-vol">14</span>, 021045</p>
-        <div class="pub-links"><a href="#">arXiv</a><a href="#">Journal</a></div>
-      </article>
-    </div>
-  </div>
-
-  <!-- Recent writing preview -->
-  <div class="home-section" style="border-top: 1px solid var(--rule); padding-top: 3rem;">
-    <div class="home-section-head">
-      <h2>Recent Writing</h2>
-      <a href="blog.html">All posts →</a>
-    </div>
-    <article class="post-card">
-      <time>March 2025</time>
-      <h2><a href="posts/topological-phases-primer.html">A non-expert's guide to topological phases of matter</a></h2>
-      <p>Why "topology" in physics doesn't mean what you might think, and why that's what makes it so useful.</p>
-      <a href="posts/topological-phases-primer.html" class="post-read-more">Read →</a>
-    </article>
-    <article class="post-card">
-      <time>November 2024</time>
-      <h2><a href="posts/quantum-error-correction.html">Quantum error correction without the jargon</a></h2>
-      <p>An attempt to explain why protecting quantum information from noise is genuinely hard.</p>
-      <a href="posts/quantum-error-correction.html" class="post-read-more">Read →</a>
-    </article>
   </div>
 
   <footer class="footer">
