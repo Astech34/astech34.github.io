@@ -1,20 +1,22 @@
-// ── Mark active nav link based on current page ───────────────
-(function () {
-  const path = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-links a').forEach(a => {
-    const href = a.getAttribute('href').split('/').pop();
-    if (href === path) a.classList.add('active');
-  });
-})();
+document.documentElement.classList.add('js');
+
+// ── Highlight the nav link for the section in view ───────────
+const navLinks = [...document.querySelectorAll('.nav-links a')];
+const sections = navLinks
+  .map(a => document.querySelector(a.getAttribute('href')))
+  .filter(Boolean);
+
+const spy = new IntersectionObserver(
+  entries => entries.forEach(e => {
+    if (!e.isIntersecting) return;
+    navLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === '#' + e.target.id));
+  }),
+  { rootMargin: '-40% 0px -55% 0px' }
+);
+sections.forEach(s => spy.observe(s));
 
 // ── Scroll fade-in ───────────────────────────────────────────
-const fadeTargets = document.querySelectorAll(
-  '.pub, .post-card, .fade-in, .contact-note, .contact-row, .about-body p'
-);
-
-fadeTargets.forEach(el => {
-  if (!el.classList.contains('fade-in')) el.classList.add('fade-in');
-});
+const fadeTargets = document.querySelectorAll('.card, .pub, .timeline li, .skill-group, .facts');
 
 const io = new IntersectionObserver(
   entries => entries.forEach(e => {
@@ -23,4 +25,4 @@ const io = new IntersectionObserver(
   { threshold: 0.1 }
 );
 
-fadeTargets.forEach(el => io.observe(el));
+fadeTargets.forEach(el => { el.classList.add('fade-in'); io.observe(el); });

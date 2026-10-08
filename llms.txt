@@ -1,0 +1,22 @@
+# Anderson Steckler
+
+> Anderson Steckler is a third-year Physics Ph.D. student at the University of New Hampshire (UNH) in Durham, New Hampshire, USA. Research focus: strongly correlated magnetism and magnetic materials design in Dr. Jiadong Zang's group. Earlier work covers quasiparticle scattering in graphene and RF calibration of a lightning radio interferometer. Open to research and industry R&D roles.
+
+Website: https://astech34.github.io/
+Email: anderson.steckler@unh.edu
+GitHub: https://github.com/Astech34
+
+## Research
+
+- **Structure–property design of magnetic materials (current, Zang Group, UNH):** Studies how the geometric structure of transition metal oxides relates to magnetocrystalline anisotropy. The goal is design principles for new hard and soft magnetic materials used in motors, power electronics, sensors, and data storage.
+- **Topology in graphene through quasiparticle scattering (Hollen Lab, UNH):** Modeled quasiparticle interference and wavefront dislocations around multiple scattering centers to probe graphene's topological Berry phase, linking theory to scanning tunneling microscopy (STM). Presented at the APS March Meeting 2025.
+- **RF calibration of the RIFTS lightning radio interferometer (Liu Group, UNH):** Characterized coaxial cables with a vector network analyzer and built a calibration model for the instrument's signal chain. Won first place at the UNH Undergraduate Research Conference 2024.
+
+## Publications & Presentations
+
+- A. Steckler, S. Hollen, J. Zhang, S. Pershoguba. "Using Wavefront Dislocations to Probe Topological Berry Phase in Graphene With Multiple Scattering Centers." APS March Meeting, 2025. https://meetings-archive.aps.org/smt/2025/mar-f22/7/
+- A. Steckler, N. Liu. "Characterization of Coaxial Cables Using a Vector Network Analyzer for the Calibration of a Radio Interferometer for Lightning Study." UNH Undergraduate Research Conference, 2024. First Place.
+
+## Keywords
+
+Condensed matter physics; strongly correlated magnetism; magnetocrystalline anisotropy; transition metal oxides; hard and soft magnetic materials; materials design; graphene; 2D materials; Berry phase; quantum materials; quasiparticle interference; scanning tunneling microscopy; RF characterization; vector network analyzer; radio interferometry; computational modeling; scientific computing; data analysis; technical communication; teaching.

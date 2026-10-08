@@ -1,0 +1,5 @@
+# All crawlers, including search engines and AI/LLM crawlers, are welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://astech34.github.io/sitemap.xml
